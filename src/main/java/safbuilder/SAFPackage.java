@@ -19,7 +19,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
 
-class SAFPackage {
+public class SAFPackage {
     private String seperatorRegex = "\\|\\|";   // Using double pipe || to separate multiple values in a field.
 
     // Directory on file system of this input collection
@@ -38,7 +38,7 @@ class SAFPackage {
      * Default constructor. Main method of this class is processMetaPack. The goal of this is to create a Simple Archive Format
      * package from input of files and csv metadata.
      */
-    SAFPackage() {}
+    public SAFPackage() {}
 
     /**
      * Constructor that allows you to set output directory

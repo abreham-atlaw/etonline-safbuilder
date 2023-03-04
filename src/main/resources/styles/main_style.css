@@ -1,0 +1,39 @@
+#root{
+
+    -fx-background-color: #FFFFFF;
+    -fx-alignment: top-center;
+    -fx-padding: 100;
+
+}
+
+#wrapper{
+
+    -fx-alignment: top-center;
+    -fx-spacing: 50;
+
+}
+
+#title{
+    -fx-font: 35px "Sans-Serif";
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-text-fill: #000099;
+}
+
+#form-wrapper{
+    -fx-spacing: 30;
+    -fx-alignment: center;
+}
+
+.button{
+
+    -fx-padding: 10 20 10 20;
+	-fx-min-width: 100;
+
+}
+
+#submit-button{
+
+    -fx-background-color: #000099;
+    -fx-text-fill: #FFFFFF;
+}
