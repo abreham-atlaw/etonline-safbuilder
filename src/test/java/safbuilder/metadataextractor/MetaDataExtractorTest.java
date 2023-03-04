@@ -14,7 +14,7 @@ public class MetaDataExtractorTest extends TestCase {
 	public void testFunctionality() throws IOException {
 		MetaDataExtractor extractor = new MetaDataExtractor();
 
-		extractor.extractAndSave(new File("/home/abreham/Projects/ETCollege-Projects/DSpace/SAFBuilder/src/sample_data/1/"), "Computer Science");
+		extractor.extractAndSave(new File("/home/abreham/Projects/ETCollege-Projects/DSpace/etonline-safbuilder/tmp/sample-data/1/"), "Computer Science");
 	}
 
 
